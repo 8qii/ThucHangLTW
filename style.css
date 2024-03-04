@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding-top: 20px;
+    margin: 10px auto;
+    max-width: 300px;
+  }
+
+h1{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.info{
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    padding-left: 50px;
+}
+
+.info label{
+    text-align: left;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.info input{
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;    
+}
+
+
+header{
+    background-color: rgb(190, 31, 31);
+    /* padding: 10px; */
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a{
+    color:#fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+header nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+/* .onhap{
+    width: 700px;
+    height: 100px;
+    font-size: 18px;
+    text-align: left;
+    
+} */
+
+ /* Submit button styling (optional) */
+ .submit-button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #3e8e41;
+  }
+
+  .button-container{
+    text-align: center;
+  }

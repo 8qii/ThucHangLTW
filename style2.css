@@ -1,0 +1,96 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  /* Container styling */
+  .container {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 800px;
+  }
+  
+  /* Question styling */
+  .question {
+    margin-bottom: 15px;
+  }
+  
+  .question p {
+    font-weight: bold;
+  }
+  
+  /* True/False question styling */
+  .true-false input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  /* Choices question styling */
+  .choices input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  /* Multiple answer question styling */
+  .multiple-answer input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  /* Answer input styling */
+  .answer input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Submit button styling (optional) */
+  .submit-button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #3e8e41;
+  }
+
+  header{
+    background-color: rgb(190, 31, 31);
+    /* padding: 10px; */
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a{
+    color:#fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+header nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
